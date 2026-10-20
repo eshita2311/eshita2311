@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b12"/><stop offset=".55" stop-color="#0b1725"/><stop offset="1" stop-color="#071019"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1c5b83" stop-opacity="0"/><stop offset=".5" stop-color="#4ce4ff"/><stop offset="1" stop-color="#2577a8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#wave)" stroke-width="2" filter="url(#glow)" opacity=".8">
+    <path d="M480 35 C620 65 620 130 760 145 S960 100 1200 135"/>
+    <path d="M430 70 C580 95 640 165 790 165 S1000 120 1200 170"/>
+    <path d="M470 105 C600 120 660 205 820 190 S1020 150 1200 205"/>
+    <path d="M520 145 C650 155 700 235 860 215 S1050 190 1200 235"/>
+    <path d="M560 20 C690 70 710 105 850 120 S1040 80 1200 110"/>
+  </g>
+  <g fill="#58dfff" opacity=".45">
+    <circle cx="820" cy="165" r="3"/><circle cx="950" cy="124" r="2"/><circle cx="1055" cy="191" r="3"/><circle cx="720" cy="106" r="2"/>
+  </g>
+  <text x="72" y="94" fill="#7ddfff" font-family="monospace" font-size="16" letter-spacing="5">SOFTWARE DEVELOPER</text>
+  <text x="68" y="155" fill="#f4f8ff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Hi, I'm Eshita</text>
+  <text x="72" y="192" fill="#a9c0d4" font-family="Arial, Helvetica, sans-serif" font-size="22">Full-Stack Development · AI/ML · Product Engineering</text>
+  <path d="M72 225 H400" stroke="#42d9ff" stroke-width="3"/>
+  <text x="72" y="256" fill="#d0e5f4" font-family="monospace" font-size="15">BUILD • LEARN • SHIP • IMPROVE</text>
+</svg>
